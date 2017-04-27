@@ -1,5 +1,5 @@
-
-Function Login()
+<?php
+function Login()
 {
 if(empty($_POST['username']))
 {
@@ -18,5 +18,7 @@ if(!$this->CheckLoginInDB($username,$password))
 return false;
 }
 session_start();
-$_SESSION[$this->GetLoginSessionVar()] = $username; 
-
+$SESSION[$this-> GetLogin SessionVar()] = $username;
+return true;
+}
+?>
