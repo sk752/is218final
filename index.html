@@ -19,6 +19,21 @@
 </form>
 </html>
 
+<? php
+// take a given email address and split it into the  
+username and domain. 
+list($userName, $mailDomain) = split("@", $email); 
+if (checkdnsrr($mailDomain, "MX")) { 
+  // this is a valid email domain! 
+  } 
+  else { 
+    // this email domain doesn't exist! bad dog! no biscuit! 
+    }
+?> 
+<html>
+<center> <a href= "web.njit.edu/~sk752/is218final/forget_password.html"> Forget
+Passowrd? </a> </center>
+
 <!-- CSS -->
 <!DOCTYPE html>
 <html>
