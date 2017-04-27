@@ -47,7 +47,7 @@ value=""> <br><br>
              <label>Phone: </label><input type='text' name='phone' 
 value=""> <br><br>
              <input type='submit' name='REGISTER' value="Register">
-         </form>
-         <center>Already have an account? Click here to <a href="index.html"> Login </a> </center>    
+         </form><br>
+         <center>Created an account? Click here to <a href="index.html"> Login </a> </center>    
     </body>
 </html>
