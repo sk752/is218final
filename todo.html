@@ -1,0 +1,16 @@
+<?php
+
+$("#myform").validate({
+      rules: {
+      email: {
+            required: true,
+            email: true,
+            remote: "check-email.php"
+            }
+         },
+        messages:{
+          email:'Email address
+									 exists.'
+									      }
+									          });
+										?>
