@@ -48,6 +48,6 @@ value=""> <br><br>
 value=""> <br><br>
              <input type='submit' name='REGISTER' value="Register">
          </form>
-         <center><a href="index.html"> Login </a> </center>    
+         <center>Already have an account? Click here to <a href="index.html"> Login </a> </center>    
     </body>
 </html>
